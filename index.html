@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dierson Mbay - Nova generatio, nova visio.</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--black:#0a0a0a;--gold:#c9a86a;--white:#f5f5f5;--gray:#9a9a9a}
+body{background:var(--black);color:var(--white);font-family:'Inter',sans-serif;overflow-x:hidden}
+h1,h2,h3{font-family:'Playfair Display',serif}
+nav{position:fixed;top:0;width:100%;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:20px 5%;background:rgba(10,10,10,0.8);backdrop-filter:blur(10px);border-bottom:1px solid rgba(201,168,106,0.15)}
+.logo{font-weight:700;letter-spacing:2px;font-size:18px}.logo span{color:var(--gold)}
+.menu{display:flex;gap:24px;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gray)}
+.menu a:hover{color:var(--gold)}
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:120px 6% 60px;position:relative}
+.hero::before{content:'';position:absolute;top:20%;left:50%;transform:translateX(-50%);width:600px;height:600px;background:radial-gradient(circle, rgba(201,168,106,0.12) 0%, transparent 70%)}
+.eyebrow{color:var(--gold);font-size:11px;letter-spacing:4px;text-transform:uppercase;margin-bottom:20px}
+.hero h1{font-size:clamp(38px,8vw,84px);line-height:0.95;margin-bottom:18px}.hero h1 em{font-style:normal;color:var(--gold)}
+.devise{font-family:'Playfair Display',serif;font-style:italic;font-size:clamp(16px,2.5vw,22px);color:var(--gray);margin-bottom:36px}
+.btn{border:1px solid var(--gold);padding:14px 32px;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;transition:0.3s}
+.btn:hover{background:var(--gold);color:var(--black)}
+section{padding:80px 6%;border-top:1px solid rgba(255,255,255,0.06)}
+.sec-num{color:var(--gold);font-size:11px;letter-spacing:3px;margin-bottom:8px}
+.sec-title{font-size:clamp(28px,4vw,44px);margin-bottom:40px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.card{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);padding:28px}
+.card:hover{border-color:rgba(201,168,106,0.4)}
+.card h3{font-size:18px;margin-bottom:10px}.card p{color:var(--gray);font-size:14px;line-height:1.7}
+.badge{display:inline-block;border:1px solid rgba(201,168,106,0.3);color:var(--gold);font-size:10px;letter-spacing:2px;padding:6px 12px;margin-bottom:12px;text-transform:uppercase}
+footer{padding:50px 6%;text-align:center;border-top:1px solid rgba(255,255,255,0.06);color:var(--gray);font-size:12px}
+footer span{color:var(--gold)}
+@media(max-width:700px){.menu{display:none}}
+</style>
+</head>
+<body>
+<nav><div class="logo">DIERSON <span>MBAY</span></div><div class="menu"><a href="#accueil">Accueil</a><a href="#apropos">À propos</a><a href="#projets">Projets</a><a href="#football">Football</a><a href="#contact">Contact</a></div></nav>
+<div id="accueil" class="hero"><div class="eyebrow">Identité personnelle • Mbuji-Mayi</div><h1>Dierson<br><em>Mbay</em></h1><div class="devise">« Nova generatio, nova visio. » — Une nouvelle génération, une nouvelle vision.</div><a href="#projets" class="btn">Découvrir mes projets</a></div>
+<section id="apropos"><div class="sec-num">01 — À PROPOS</div><h2 class="sec-title">Vision & Leadership</h2><div class="grid"><div class="card"><h3>Qui je suis</h3><p>Entrepreneur et visionnaire en devenir. Je construis une identité personnelle sérieuse, prestigieuse et reconnaissable. Centre d'intérêt principal : le football.</p></div><div class="card"><h3>Leadership</h3><p>Intéressé par l'organisation. Président de classe avec la devise : « Notre classe, notre responsabilité, notre réussite. »</p></div><div class="card"><h3>Objectif</h3><p>Construire progressivement ma présence numérique avec un site qui évolue avec moi.</p></div></div></section>
+<section id="projets"><div class="sec-num">02 — MES PROJETS</div><h2 class="sec-title">Ce que je construis</h2><div class="grid"><div class="card" style="background:linear-gradient(135deg, rgba(255,255,255,0.04), rgba(201,168,106,0.06));border-color:rgba(201,168,106,0.2)"><div class="badge">Projet principal • En développement</div><h3>Diamonds United</h3><p>Projet de club de football. Cofondateur et président. Vision tournée vers l'avenir, portée par une nouvelle génération.<br><br><em>En développement - aucun titre inventé.</em></p></div><div class="card"><div class="badge">Projet numérique</div><h3>Les foots et foot</h3><p>Page Facebook : actualité football, grands clubs, transferts, débats et humour.</p></div><div class="card"><div class="badge">Futures initiatives</div><h3>Entrepreneuriat</h3><p>Leadership, création de projets et vision.</p></div></div></section>
+<section id="football"><div class="sec-num">03 — FOOTBALL</div><h2 class="sec-title">Le football, ma passion</h2><div class="grid"><div class="card"><h3>Actualité</h3><p>Grands clubs, performances, transferts.</p></div><div class="card"><h3>Création de contenu</h3><p>Publications et communauté.</p></div><div class="card"><h3>Page publique</h3><p>Liens à ajouter ici prochainement.</p></div></div></section>
+<section id="contact"><div class="sec-num">04 — CONTACT</div><h2 class="sec-title">Me contacter</h2><div class="grid"><div class="card"><h3>Collaborations</h3><p>Email : vous ajouterez votre email ici<br>Mbuji-Mayi, RDC</p></div><div class="card"><h3>Réseaux</h3><p>Facebook / Instagram / Les foots et foot : à compléter</p></div></div></section>
+<footer>© 2026 <span>DIERSON MBAY</span> — Nova generatio, nova visio.</footer>
+</body>
+</html>
